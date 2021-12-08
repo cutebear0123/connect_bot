@@ -1,3 +1,7 @@
+token='a token from https://discord.com/developers/applications'
+
+
+
 import discord, json, aiohttp, asyncio
 from discord.ext import commands
 from discord.commands import Option
@@ -93,3 +97,4 @@ async def on_message(message):
                         ) as resp:
                             pass
 
+bot.run(token)
