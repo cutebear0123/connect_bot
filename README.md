@@ -23,3 +23,4 @@ python .
 ```python
 self.whitelist = []
 ```
+### restart bot
