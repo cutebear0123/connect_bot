@@ -12,7 +12,7 @@ bot = commands.Bot()
 class Safe:
     def __init__(self):
         self.colddown = []
-        self.whitelist = [888278703975579698]
+        self.whitelist = []
 
     @property
     def blacklist(self):
